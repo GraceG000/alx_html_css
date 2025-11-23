@@ -243,6 +243,8 @@ left:1070px;
 
 #membership h2{
     font-weight: 300;
+    font-size: 32px;
+    line-height: 100%;
 }
 
 #membership{
@@ -266,4 +268,44 @@ left:1070px;
 
 .membership-item{
     text-align: center;
+}
+
+#faq{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:4rem 1rem 5rem 1rem;
+}
+
+#faq h2{
+    color:black;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.faq-block{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:3rem;
+    row-gap:1rem;
+    width:70%;
+}
+
+footer{
+    background-color: #071629;
+    color:#ffffff;
+      padding:2rem 7rem 1.75rem 7rem;
+}
+
+.footer-block{
+   padding: 2rem 1rem 2rem 1rem; 
+   display: flex;
+    flex-direction: column;
+}
+
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
