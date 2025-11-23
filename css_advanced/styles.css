@@ -1,0 +1,137 @@
+body {
+  background-image: url("images/2d6ece16dd7ab4ed2701047586bc80f0cb68835c/CSS Advanced/Object.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#banner {
+  width: 1440px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 7.5rem;
+  color: white;
+}
+
+
+nav a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.banner-text-first-part{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width:20rem;
+}
+
+.banner-text{
+    border:none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+}
+
+#banner h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+#banner button {
+  width: 200px;
+  height: 44px;
+  /* margin-top: 419px;
+  margin-left: 639px; */
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 100%;
+  text-align: center;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #c271ff;
+  border-radius: 22px;
+  border: none;
+  padding-top: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 13px;
+}
+
+h2{
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem 7rem 1.75rem 7rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1rem;
+}
+
+.feature-div{
+    line-height: 10px;
+    margin:0px;
+}
+
+.banner-blocks{
+    display:flex;
+    flex-direction: column;
+    width:1009px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3rem;
+}
+
+.feature-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.feature-image{
+    border-radius:100%;
+    width:150px;
+    height:150px;
+}
+
+.feature{
+    line-height: 25px;
+}
+
+.feature p{
+ text-align: center;
+ margin:0;
+}
+
+.feature h3{
+ text-align: center;
+ margin:0;
+}
