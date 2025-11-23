@@ -165,3 +165,78 @@ nav{
     margin-inline-start: 40px;
     margin-inline-end: 40px;
 }
+
+#videos{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding:2rem 1rem 2rem 1rem;
+}
+
+#videos h2{
+    color:black;
+    margin-bottom: 3.5rem;
+}
+
+.video-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+    width:70%;
+}
+
+h4{
+    color:#c271ff;
+    font-weight: 400 !important;
+}
+
+.rating p{
+    color:#c271ff;
+}
+
+.author img{
+    width:50px;
+}
+
+.video-item .author{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item{
+    position:relative;
+}
+
+.dependent{
+    position:absolute;
+    top:1340px;
+    left:200px;
+}
+
+.dependent2{
+position:absolute;
+top:1340px;
+left:500px;
+}
+
+.dependent3{
+position:absolute;
+top:1340px;
+left:770px;
+}
+
+.dependent4{
+position:absolute;
+top:1340px;
+left:1070px;
+}
