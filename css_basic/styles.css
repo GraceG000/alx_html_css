@@ -1,0 +1,29 @@
+/* 1. Make <body> and <main> flex containers */
+body {
+  display: flex;
+  flex-direction: column; /* vertical stacking: header, main, footer */
+  height: 100vh; /* allows proper flex behavior */
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;   /* horizontal layout: article + aside */
+  flex: auto;            /* auto width + height */
+}
+
+/* 2. Control relative widths */
+article {
+  flex: 2;               /* takes 2/3 of width */
+  overflow-y: auto;      /* scroll inside article */
+}
+
+aside {
+  flex: 1;               /* takes 1/3 of width */
+  overflow-y: auto;      /* scroll inside aside */
+}
+
+/* Optional: to make header/footer visible */
+header, footer {
+  padding: 10px;
+}
