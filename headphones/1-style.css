@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("fonts/SourceSansPro-Light.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("fonts/SourceSansPro-LightIt.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("fonts/SourceSansPro-ExtraLight.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("fonts/SourceSansPro-ExtraLightIt.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("fonts/SourceSansPro-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("fonts/SourceSansPro-BoldIt.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("fonts/SourceSansPro-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("fonts/SourceSansPro-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+:root{
+    --red:#FF6565;
+}
+
+body{
+     font-family: "SourceSansPro", sans-serif;
+}
+
+.second-section {
+  color: #071629;
+  font-weight: 400;
+  padding: 7rem 7rem 2rem 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.second-section p {
+  text-align: center;
+}
+
+.writing {
+  width: 637px;
+  font-size: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 207px;
+  font-size: 14px;
+  height: 193px;
+}
+
+.icon {
+font-size: 55px;
+color: var(--red);
+display: inline-block;
+margin-bottom: 10px;
+}
+
+.card-gap {
+  height: 26px;
+}
+
+.card div {
+  margin: 0;
+}
+
+.card-text {
+  height: 52px;
+  text-align: center;
+}
+
+.image-cards {
+  display: grid;
+  grid-template-columns: 207px 207px 207px 207px;
+  column-gap: 58px;
+}
