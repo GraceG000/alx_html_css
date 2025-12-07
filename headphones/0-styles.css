@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("fonts/SourceSansPro-Light.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("fonts/SourceSansPro-LightIt.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("fonts/SourceSansPro-ExtraLight.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("fonts/SourceSansPro-ExtraLightIt.otf") format("opentype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("fonts/SourceSansPro-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("fonts/SourceSansPro-BoldIt.otf") format("opentype");
+    font-weight: 700;
+    font-style:italic;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("fonts/SourceSansPro-Black.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("fonts/SourceSansPro-Black.otf") format("opentype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+body{
+    margin:0;
+    color: white;
+    font-family: "SourceSansPro", sans-serif;
+}
+
+div{
+    margin:0;
+}
+
+header{
+    background-image: url('/headphones/d1597894d79386c83b9b/images/headphones_hero_1.jpg');
+   height:800px;
+   display:grid;
+   gap:9rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 7rem 1rem 7rem;
+    font-weight: 700;
+}
+
+ul{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:2rem;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+ul li{
+  list-style: none;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:313px;
+}
+ small{
+    font-size: 16px;
+ }
+
+.heading h2{
+    font-size: 32px;
+    margin-bottom:0;
+    width:637px;
+}
+
+.section-1{
+    text-align: center;
+    margin:0;
+    font-weight: 700;
+   
+}
+
+.action-call{
+    font-weight: 700;
+    background-color: #FF6565;
+    border:none;
+    border-radius: 3rem;
+    padding:1rem 2rem 1rem 2rem;
+    color:white;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+.heading-intro{
+    width:637px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+main{
+    color:#071629;
+    font-weight:400; 
+    padding:7rem 7rem 2rem  7rem;
+}
+
+main p{
+    text-align: center;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width:207px;
+    font-size: 14px;
+    height:193px;
+}
+
+.card img{
+    width:67.59px;
+    height:76.8px;
+}
+
+.card-gap{
+    height:26px;
+}
+
+.card div{
+    margin:0;
+}
+
+.card-text{
+    height:52px;
+    text-align: center;
+}
