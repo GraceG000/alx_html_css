@@ -138,28 +138,4 @@ small {
   font-size: 16px;
 }
 
-.footer-section {
-  height: 249px;
-  background-color: #071629;
-  padding: 5rem 7rem 1rem 7rem;
-  display: grid;
-  align-items: center;
-  text-align: center;
-  row-gap: 3rem;
-}
 
-.socials {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.socials img {
-  width: 161px;
-  height: 32px;
-}
-
-.copyright {
-  font-weight: 300;
-  font-size: 12px;
-}
