@@ -1,0 +1,49 @@
+.third-section {
+  background-image: url("/headphones/d1597894d79386c83b9b/images/headphones_hero_2.jpg");
+  background-repeat: no-repeat;
+  height: 650px;
+  font-weight: 400;
+  padding: 9rem 7rem 2rem 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.writing-section {
+  width: 637px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 26px;
+}
+
+.pentagon {
+  width: 190px; /* adjust as needed */
+  height: 190px; /* match image aspect ratio */
+  background-image: url("/headphones/d1597894d79386c83b9b/images/pentagone.png"); /* your shape image */
+  background-size: contain; /*  makes image fill container */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center horizontally */
+  justify-content: center; /* center vertically */
+  color: white;
+  text-align: center;
+}
+
+.percent {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.label {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.shape-section {
+  display: grid;
+  grid-template-columns: 190px 190px 190px 190px;
+  column-gap: 76px;
+}
