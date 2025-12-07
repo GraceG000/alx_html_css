@@ -118,3 +118,19 @@ margin-bottom: 10px;
   grid-template-columns: 207px 207px 207px 207px;
   column-gap: 58px;
 }
+
+@media screen and (max-width: 768px) {
+.image-cards {
+display: grid;
+  grid-template-columns: 207px 207px;
+  column-gap: 58px;
+}
+}
+
+@media screen and (max-width: 480px) {
+  .image-cards {
+display: grid;
+  grid-template-columns: 207px;
+  column-gap: 58px;
+}
+}

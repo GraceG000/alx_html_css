@@ -74,9 +74,17 @@ header {
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1rem 7rem 1rem 7rem;
   font-weight: 700;
+  width:1000px;
+  gap:15rem;
+  margin-left:4.5%;
+  margin-right:4.5%;
+}
+
+nav img{
+    height: 32px;
 }
 
 ul {
@@ -131,11 +139,13 @@ small {
   margin-bottom: 65px;
 }
 
+.action-call :hover{
+    opacity: 0.9;
+}
+
 .heading-intro {
   width: 637px;
   text-align: center;
   line-height: 26px;
   font-size: 16px;
 }
-
-
