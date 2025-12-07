@@ -1,0 +1,27 @@
+.fourth-section {
+  height: 613px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 45px;
+}
+
+.lines {
+  height: 373px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.line-part {
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 45px;
+}
+
+.button-part {
+  padding-left: 70px;
+}
